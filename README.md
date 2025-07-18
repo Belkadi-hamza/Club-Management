@@ -59,8 +59,8 @@ A comprehensive web application for managing sports clubs, athletes, payments, a
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/clubmanager.git
-   cd clubmanager
+   git clone https://github.com/Belkadi-hamza/Club-Management.git
+   cd Club-Management
    ```
 
 2. **Install dependencies**
@@ -90,21 +90,6 @@ A comprehensive web application for managing sports clubs, athletes, payments, a
    Navigate to `http://localhost:5173`
 
 ## 🔧 Configuration
-
-### Firebase Configuration
-
-Update the Firebase configuration in `src/lib/firebase.ts`:
-
-```typescript
-const firebaseConfig = {
-  apiKey: "your-api-key",
-  authDomain: "your-project.firebaseapp.com",
-  projectId: "your-project-id",
-  storageBucket: "your-project.appspot.com",
-  messagingSenderId: "123456789",
-  appId: "your-app-id"
-};
-```
 
 ### Database Structure
 
