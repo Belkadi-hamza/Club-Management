@@ -1,0 +1,315 @@
+{
+  "clubs": {
+    "club_001": {
+      "id": "club_001",
+      "name": "Club Sportif Atlas",
+      "email": "contact@clubatlas.ma",
+      "phone": "0612345678",
+      "imageUrl": "https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg",
+      "created_at": "2024-01-15",
+      "sports": {
+        "sport_001": {
+          "id": "sport_001",
+          "name": "Football"
+        },
+        "sport_002": {
+          "id": "sport_002",
+          "name": "Basketball"
+        },
+        "sport_003": {
+          "id": "sport_003",
+          "name": "Tennis"
+        }
+      },
+      "athletes": {
+        "athlete_001": {
+          "id": "athlete_001",
+          "nom": "Ahmed Benali",
+          "date_naissance": "2005-03-15",
+          "telephone": "0687654321",
+          "sexe": "Homme",
+          "sports": {
+            "sport_001": {
+              "sportId": "sport_001",
+              "sportName": "Football",
+              "montant": 200,
+              "date_debut": "2024-01-01",
+              "paiements": {
+                "payment_001": {
+                  "id": "payment_001",
+                  "mois": "2024-01",
+                  "montant": 200,
+                  "date_paiement": "2024-01-05",
+                  "status": "paid"
+                },
+                "payment_002": {
+                  "id": "payment_002",
+                  "mois": "2024-02",
+                  "montant": 200,
+                  "date_paiement": "2024-02-03",
+                  "status": "paid"
+                },
+                "payment_003": {
+                  "id": "payment_003",
+                  "mois": "2024-03",
+                  "montant": 200,
+                  "date_paiement": "",
+                  "status": "pending"
+                }
+              }
+            }
+          }
+        },
+        "athlete_002": {
+          "id": "athlete_002",
+          "nom": "Fatima Zahra",
+          "date_naissance": "2006-07-22",
+          "telephone": "0698765432",
+          "sexe": "Femme",
+          "sports": {
+            "sport_002": {
+              "sportId": "sport_002",
+              "sportName": "Basketball",
+              "montant": 180,
+              "date_debut": "2024-02-01",
+              "paiements": {
+                "payment_004": {
+                  "id": "payment_004",
+                  "mois": "2024-02",
+                  "montant": 180,
+                  "date_paiement": "2024-02-01",
+                  "status": "paid"
+                },
+                "payment_005": {
+                  "id": "payment_005",
+                  "mois": "2024-03",
+                  "montant": 180,
+                  "date_paiement": "",
+                  "status": "overdue"
+                }
+              }
+            },
+            "sport_003": {
+              "sportId": "sport_003",
+              "sportName": "Tennis",
+              "montant": 250,
+              "date_debut": "2024-01-15",
+              "paiements": {
+                "payment_006": {
+                  "id": "payment_006",
+                  "mois": "2024-01",
+                  "montant": 250,
+                  "date_paiement": "2024-01-15",
+                  "status": "paid"
+                },
+                "payment_007": {
+                  "id": "payment_007",
+                  "mois": "2024-02",
+                  "montant": 250,
+                  "date_paiement": "2024-02-15",
+                  "status": "paid"
+                },
+                "payment_008": {
+                  "id": "payment_008",
+                  "mois": "2024-03",
+                  "montant": 250,
+                  "date_paiement": "",
+                  "status": "pending"
+                }
+              }
+            }
+          }
+        },
+        "athlete_003": {
+          "id": "athlete_003",
+          "nom": "Youssef Alami",
+          "date_naissance": "2004-11-08",
+          "telephone": "0676543210",
+          "sexe": "Homme",
+          "sports": {
+            "sport_001": {
+              "sportId": "sport_001",
+              "sportName": "Football",
+              "montant": 200,
+              "date_debut": "2023-09-01",
+              "paiements": {
+                "payment_009": {
+                  "id": "payment_009",
+                  "mois": "2024-01",
+                  "montant": 200,
+                  "date_paiement": "2024-01-10",
+                  "status": "paid"
+                },
+                "payment_010": {
+                  "id": "payment_010",
+                  "mois": "2024-02",
+                  "montant": 200,
+                  "date_paiement": "2024-02-12",
+                  "status": "paid"
+                },
+                "payment_011": {
+                  "id": "payment_011",
+                  "mois": "2024-03",
+                  "montant": 200,
+                  "date_paiement": "2024-03-05",
+                  "status": "paid"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "club_002": {
+      "id": "club_002",
+      "name": "Club Olympique Casablanca",
+      "email": "admin@olympique-casa.ma",
+      "phone": "0523456789",
+      "imageUrl": "https://images.pexels.com/photos/163444/sport-treadmill-tor-route-163444.jpeg",
+      "created_at": "2024-02-01",
+      "sports": {
+        "sport_004": {
+          "id": "sport_004",
+          "name": "Natation"
+        },
+        "sport_005": {
+          "id": "sport_005",
+          "name": "Athlétisme"
+        },
+        "sport_006": {
+          "id": "sport_006",
+          "name": "Volleyball"
+        }
+      },
+      "athletes": {
+        "athlete_004": {
+          "id": "athlete_004",
+          "nom": "Salma Bennani",
+          "date_naissance": "2007-01-12",
+          "telephone": "0665432109",
+          "sexe": "Femme",
+          "sports": {
+            "sport_004": {
+              "sportId": "sport_004",
+              "sportName": "Natation",
+              "montant": 300,
+              "date_debut": "2024-02-01",
+              "paiements": {
+                "payment_012": {
+                  "id": "payment_012",
+                  "mois": "2024-02",
+                  "montant": 300,
+                  "date_paiement": "2024-02-01",
+                  "status": "paid"
+                },
+                "payment_013": {
+                  "id": "payment_013",
+                  "mois": "2024-03",
+                  "montant": 300,
+                  "date_paiement": "",
+                  "status": "pending"
+                }
+              }
+            }
+          }
+        },
+        "athlete_005": {
+          "id": "athlete_005",
+          "nom": "Omar Tazi",
+          "date_naissance": "2005-09-30",
+          "telephone": "0654321098",
+          "sexe": "Homme",
+          "sports": {
+            "sport_005": {
+              "sportId": "sport_005",
+              "sportName": "Athlétisme",
+              "montant": 220,
+              "date_debut": "2024-01-01",
+              "paiements": {
+                "payment_014": {
+                  "id": "payment_014",
+                  "mois": "2024-01",
+                  "montant": 220,
+                  "date_paiement": "2024-01-08",
+                  "status": "paid"
+                },
+                "payment_015": {
+                  "id": "payment_015",
+                  "mois": "2024-02",
+                  "montant": 220,
+                  "date_paiement": "2024-02-10",
+                  "status": "paid"
+                },
+                "payment_016": {
+                  "id": "payment_016",
+                  "mois": "2024-03",
+                  "montant": 220,
+                  "date_paiement": "",
+                  "status": "overdue"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "club_003": {
+      "id": "club_003",
+      "name": "Royal Athletic Club",
+      "email": "info@royalathletic.ma",
+      "phone": "0537891234",
+      "imageUrl": "https://images.pexels.com/photos/209977/pexels-photo-209977.jpeg",
+      "created_at": "2023-12-01",
+      "sports": {
+        "sport_007": {
+          "id": "sport_007",
+          "name": "Handball"
+        },
+        "sport_008": {
+          "id": "sport_008",
+          "name": "Judo"
+        }
+      },
+      "athletes": {
+        "athlete_006": {
+          "id": "athlete_006",
+          "nom": "Aicha Mansouri",
+          "date_naissance": "2006-04-18",
+          "telephone": "0643210987",
+          "sexe": "Femme",
+          "sports": {
+            "sport_008": {
+              "sportId": "sport_008",
+              "sportName": "Judo",
+              "montant": 280,
+              "date_debut": "2024-01-01",
+              "paiements": {
+                "payment_017": {
+                  "id": "payment_017",
+                  "mois": "2024-01",
+                  "montant": 280,
+                  "date_paiement": "2024-01-03",
+                  "status": "paid"
+                },
+                "payment_018": {
+                  "id": "payment_018",
+                  "mois": "2024-02",
+                  "montant": 280,
+                  "date_paiement": "2024-02-05",
+                  "status": "paid"
+                },
+                "payment_019": {
+                  "id": "payment_019",
+                  "mois": "2024-03",
+                  "montant": 280,
+                  "date_paiement": "2024-03-02",
+                  "status": "paid"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "clubs": {
+    "user123abc": {
+      "id": "user123abc",
+      "name": "Club Sportif Atlas",
+      "email": "contact@clubatlas.ma",
+      "phone": "0612345678",
+      "imageUrl": "https://example.com/club-logo.jpg",
+      "created_at": "2024-01-15",
+      "sports": {
+        "sport1": {
+          "id": "sport1",
+          "name": "Football"
+        },
+        "sport2": {
+          "id": "sport2",
+          "name": "Basketball"
+        },
+        "sport3": {
+          "id": "sport3",
+          "name": "Tennis"
+        }
+      },
+      "athletes": {
+        "athlete1": {
+          "id": "athlete1",
+          "nom": "Ahmed Benali",
+          "date_naissance": "2005-03-15",
+          "telephone": "0687654321",
+          "sexe": "Homme",
+          "sports": {
+            "sport1": {
+              "sportId": "sport1",
+              "sportName": "Football",
+              "montant": 200,
+              "date_debut": "2024-01-01",
+              "paiements": {
+                "payment1": {
+                  "id": "payment1",
+                  "mois": "2024-01",
+                  "montant": 200,
+                  "date_paiement": "2024-01-05",
+                  "status": "paid"
+                },
+                "payment2": {
+                  "id": "payment2",
+                  "mois": "2024-02",
+                  "montant": 200,
+                  "date_paiement": "2024-02-03",
+                  "status": "paid"
+                },
+                "payment3": {
+                  "id": "payment3",
+                  "mois": "2024-03",
+                  "montant": 200,
+                  "date_paiement": "",
+                  "status": "pending"
+                }
+              }
+            }
+          }
+        },
+        "athlete2": {
+          "id": "athlete2",
+          "nom": "Fatima Zahra",
+          "date_naissance": "2006-07-22",
+          "telephone": "0698765432",
+          "sexe": "Femme",
+          "sports": {
+            "sport2": {
+              "sportId": "sport2",
+              "sportName": "Basketball",
+              "montant": 180,
+              "date_debut": "2024-02-01",
+              "paiements": {
+                "payment4": {
+                  "id": "payment4",
+                  "mois": "2024-02",
+                  "montant": 180,
+                  "date_paiement": "2024-02-01",
+                  "status": "paid"
+                },
+                "payment5": {
+                  "id": "payment5",
+                  "mois": "2024-03",
+                  "montant": 180,
+                  "date_paiement": "",
+                  "status": "overdue"
+                }
+              }
+            },
+            "sport3": {
+              "sportId": "sport3",
+              "sportName": "Tennis",
+              "montant": 250,
+              "date_debut": "2024-01-15",
+              "paiements": {
+                "payment6": {
+                  "id": "payment6",
+                  "mois": "2024-01",
+                  "montant": 250,
+                  "date_paiement": "2024-01-15",
+                  "status": "paid"
+                },
+                "payment7": {
+                  "id": "payment7",
+                  "mois": "2024-02",
+                  "montant": 250,
+                  "date_paiement": "2024-02-15",
+                  "status": "paid"
+                },
+                "payment8": {
+                  "id": "payment8",
+                  "mois": "2024-03",
+                  "montant": 250,
+                  "date_paiement": "",
+                  "status": "pending"
+                }
+              }
+            }
+          }
+        },
+        "athlete3": {
+          "id": "athlete3",
+          "nom": "Youssef Alami",
+          "date_naissance": "2004-11-08",
+          "telephone": "0676543210",
+          "sexe": "Homme",
+          "sports": {
+            "sport1": {
+              "sportId": "sport1",
+              "sportName": "Football",
+              "montant": 200,
+              "date_debut": "2023-09-01",
+              "paiements": {
+                "payment9": {
+                  "id": "payment9",
+                  "mois": "2024-01",
+                  "montant": 200,
+                  "date_paiement": "2024-01-10",
+                  "status": "paid"
+                },
+                "payment10": {
+                  "id": "payment10",
+                  "mois": "2024-02",
+                  "montant": 200,
+                  "date_paiement": "2024-02-12",
+                  "status": "paid"
+                },
+                "payment11": {
+                  "id": "payment11",
+                  "mois": "2024-03",
+                  "montant": 200,
+                  "date_paiement": "2024-03-05",
+                  "status": "paid"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "user456def": {
+      "id": "user456def",
+      "name": "Club Olympique Casablanca",
+      "email": "admin@olympique-casa.ma",
+      "phone": "0523456789",
+      "imageUrl": "https://example.com/olympique-logo.jpg",
+      "created_at": "2024-02-01",
+      "sports": {
+        "sport4": {
+          "id": "sport4",
+          "name": "Natation"
+        },
+        "sport5": {
+          "id": "sport5",
+          "name": "Athlétisme"
+        }
+      },
+      "athletes": {
+        "athlete4": {
+          "id": "athlete4",
+          "nom": "Salma Bennani",
+          "date_naissance": "2007-01-12",
+          "telephone": "0665432109",
+          "sexe": "Femme",
+          "sports": {
+            "sport4": {
+              "sportId": "sport4",
+              "sportName": "Natation",
+              "montant": 300,
+              "date_debut": "2024-02-01",
+              "paiements": {
+                "payment12": {
+                  "id": "payment12",
+                  "mois": "2024-02",
+                  "montant": 300,
+                  "date_paiement": "2024-02-01",
+                  "status": "paid"
+                },
+                "payment13": {
+                  "id": "payment13",
+                  "mois": "2024-03",
+                  "montant": 300,
+                  "date_paiement": "",
+                  "status": "pending"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
