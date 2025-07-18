@@ -69,9 +69,12 @@ const AthleteCard: React.FC<AthleteCardProps> = ({
   const isActive = athlete.status === 'active';
 
   return (
-    <div className={`bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow ${
+    <div 
+      onClick={() => onEdit(athlete)}
+      className={`bg-white rounded-lg shadow-sm border p-4 hover:shadow-md transition-shadow cursor-pointer ${
       isActive ? 'border-gray-200' : 'border-red-200 bg-red-50'
-    }`}>
+    }`}
+    >
       {/* Header Section */}
       <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4 gap-3">
         {/* Athlete Info */}
@@ -95,18 +98,6 @@ const AthleteCard: React.FC<AthleteCardProps> = ({
             <p className="text-sm text-gray-500 mt-1">
               {calculateAge(athlete.date_naissance)} ans • {athlete.sexe}
             </p>
-          </div>
-        </div>
-        
-        {/* Action Buttons */}
-        <div className="flex flex-col gap-2 sm:flex-row sm:items-center md:flex-col md:items-end md:gap-1">
-          <div className="flex flex-wrap gap-1 justify-end">
-            <button
-              onClick={() => onEdit(athlete)}
-              className="text-blue-600 hover:text-blue-700 text-xs font-medium hover:bg-blue-50 px-2 py-1 rounded transition-colors whitespace-nowrap"
-            >
-              Profil
-            </button>
           </div>
         </div>
       </div>
